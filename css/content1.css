@@ -1,0 +1,42 @@
+#content {
+    margin-top: 13px;
+   width: 100%;
+   height: auto;
+    display: block;
+    margin-left: 240px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+#content_goiy {
+    width: 60%;
+    height: 100px;
+    
+}
+#content_goiy ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    height: 100%;
+   
+    
+}
+#content_goiy ul li {
+    padding : 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: none;
+    align-items: flex-end;
+    height: 30px;
+    line-height: 30px;
+    background-color: #353739;
+    color: white;
+}
+#content_goiy ul :hover{
+    cursor: pointer;
+}
+#content_manypage{
+    height: 360px;
+    width: 100%;
+}
